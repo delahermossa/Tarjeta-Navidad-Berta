@@ -44,7 +44,7 @@ img {
   text-align: center;
   margin-top: 50vh;
   color: rgb(36, 147, 220);
-  font-size: clamp(10px, 4vw, 10px);
+  font-size: clamp(15px, 4vw, 10px);
   visibility: hidden;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
@@ -90,14 +90,14 @@ img {
   }
 
   .anim-typewriter {
-    max-width: 550px;
+    max-width: 500px;
   }
 
 }
 
 @media (orientation:portrait) {
   .anim-typewriter {
-    max-width: 300px;
+    max-width: 250px;
   }
 }
 
