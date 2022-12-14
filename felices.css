@@ -44,7 +44,6 @@ img {
   text-align: center;
   margin-top: 50vh;
   color: rgb(36, 147, 220);
-  font-size: clamp(15px, 4vw, 10px);
   visibility: hidden;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
