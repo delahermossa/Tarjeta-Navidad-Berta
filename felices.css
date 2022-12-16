@@ -1,8 +1,11 @@
+/*Estilo general*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/*Body*/
 
 body {
   width: 100vw;
@@ -13,6 +16,7 @@ body {
 
 
 }
+/* Div principal*/
 
 .divPrincipal {
   position: absolute;
@@ -28,11 +32,13 @@ body {
 
 }
 
+/*Imagen incial*/
 img {
   height: 100vh;
   object-fit: contain;
 
 }
+/*Mensaje de felicitación*/
 
 #felicitacion {
   background-color: rgba(238, 228, 228, 0.906);
@@ -53,6 +59,7 @@ img {
 
 
 }
+/*Botón para felicitacion en alert*/
 
 #boton {
 
@@ -79,14 +86,14 @@ img {
 
   }
 
-  body {
+  /* body {
     background-size: contain;
     width: 75vw;
     display: flex;
     align-self: center;
     margin-left: 12.5vw;
     margin-right: 12.5vw;
-  }
+  } */
 
   .anim-typewriter {
     max-width: 500px;
@@ -96,7 +103,7 @@ img {
 
 @media (orientation:portrait) {
   .anim-typewriter {
-    max-width: 265px;
+    max-width: 275px;
   }
 }
 
