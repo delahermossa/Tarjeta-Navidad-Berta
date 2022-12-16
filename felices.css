@@ -73,9 +73,9 @@ img {
   .divPrincipal {
     width: 75vw;
   }
-  .p{
+  /* .p{
     width: 80vw;
-  }
+  } */
 
   #felicitacion {
     font-size: clamp(15px, 4vw, 30px);
@@ -99,7 +99,7 @@ img {
 
 @media (orientation:portrait) {
   .anim-typewriter {
-    max-width: 300px;
+    max-width: 280px;
   }
 }
 
