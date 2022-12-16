@@ -26,7 +26,7 @@ function showMessage() {
 }
 
 function fadeInText() {
-    var text = document.querySelector("#felicitacion");
+    var text = document.querySelector("felicitacion");
     text.style.opacity = 1;
   }
 
