@@ -37,7 +37,6 @@ img {
 #felicitacion {
   background-color: rgba(238, 228, 228, 0.906);
   border-radius: 1vw;
-  display: flex;
   position: absolute;
   width: auto;
   height: auto;
@@ -96,7 +95,7 @@ img {
 
 @media (orientation:portrait) {
   
-  
+
   .anim-typewriter {
     max-width: 300px;
   }
