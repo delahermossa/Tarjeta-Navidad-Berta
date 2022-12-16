@@ -71,8 +71,8 @@ img {
 
 @media (orientation:landscape) {
   .divPrincipal {
-    width: 75vw;
-    margin-left: calc(calc(100vw-75vh)/2);
+    width: 80vw;
+    
   }
 
   #felicitacion {
