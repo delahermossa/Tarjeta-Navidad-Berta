@@ -86,14 +86,14 @@ img {
 
   }
 
-  /* body {
+   body {
     background-size: contain;
     width: 75vw;
     display: flex;
     align-self: center;
     margin-left: 12.5vw;
     margin-right: 12.5vw;
-  } */
+  } 
 
   .anim-typewriter {
     max-width: 500px;
