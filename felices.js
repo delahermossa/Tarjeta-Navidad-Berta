@@ -25,9 +25,9 @@ function showMessage() {
     alert("¡Te deseo una feliz Navidad!");
 }
 
-function fadeInText() {
-    var text = document.querySelector("felicitacion");
-    text.style.opacity = 1;
-  }
+// function fadeInText() {
+//     var text = document.querySelector("felicitacion");
+//     text.style.opacity = 1;
+//   }
 
   
