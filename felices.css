@@ -96,7 +96,7 @@ img {
 
 @media (orientation:portrait) {
   .anim-typewriter {
-    max-width: 280px;
+    max-width: 300px;
   }
 }
 
