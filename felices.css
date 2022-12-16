@@ -73,6 +73,9 @@ img {
   .divPrincipal {
     width: 75vw;
   }
+  .p{
+    width: 80vw;
+  }
 
   #felicitacion {
     font-size: clamp(15px, 4vw, 30px);
