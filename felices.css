@@ -95,8 +95,11 @@ img {
 }
 
 @media (orientation:portrait) {
+  .divPrincipal {
+    width: 50vw;
+  }
   .anim-typewriter {
-    max-width: 300px;
+    max-width: 320px;
   }
 }
 
