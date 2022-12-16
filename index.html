@@ -14,16 +14,18 @@
 
 <body id="body">
 
-
-
+    <!-- Contenedor principal -->
     <div class="divPrincipal">
+
+        <!--Imagen inicial-->
         <img id="imagen" src="./arbolnavidad.webp">
+
+        <!--Botón alert para un segundo mensaje de felicitación-->
         <button id="boton" onclick="showMessage()">¡Dale click para un mensaje de felicitación!</button>
 
 
-
+        <!-- Div que contiene la felicitación animada y aparece 3 segundos después de cargar la web-->
         <div id="divAnimacion">
-
             <div align="center" style="padding-top:70vh;" class="fond">
 
                 <div class="contener_home_one">
@@ -69,32 +71,32 @@
 
                 <div style=" width:500px;height:9px; background-color:#ffffff; border-radius:5px;">&nbsp;</div>
 
-
-
             </div>
 
         </div>
 
+        <!-- Mensaje de felicitación-->
 
         <p id="felicitacion">¡FELICES FIESTAS TE DESEA BERTA!</p>
 
+        <!-- Botón que inicia y pausa la música-->
         <button id="playPause">▶</button>
-
-
 
     </div>
 
 
-
+    <!--Import del js-->
     <script type="text/javascript" src="felices.js"></script>
 
-
+    <!-- Villancico-->
     <audio id="miAudio" src="./burritosabanero.mp3"></audio>
 
     <script>
         var play = document.getElementById("playPause");
         var musica = document.getElementById("miAudio");
 
+        /*Función Javascript que hace que al clickar en el boton haga play o pause del villancico,
+        además hace que cambie el icono de play y pause*/
         play.addEventListener("click", function () {
             if (musica.paused) {
                 musica.play();
